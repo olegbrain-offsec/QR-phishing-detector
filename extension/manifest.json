@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Противодействие QR-фишингу",
+  "description": "Расширение обнаруживает QR-код на странице и прверяет его на фишинг. Если URL безопасен - предлагает перейти по ссылке",
+  "version": "0.0.1",
+  "browser_action": {
+    "default_popup": "dist/popup.html"
+  },
+  "permissions": [
+    "https://api.redirect-checker.net/*",
+    "https://www.virustotal.com/*",
+    "tabs",
+    "activeTab"
+  ]
+}

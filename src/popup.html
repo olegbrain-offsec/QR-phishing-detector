@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			.button {
+				width: 240px;
+				background-color: #66a3a0;
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 4px 2px;
+				cursor: pointer;
+			}
+			.body-style {
+				height: 200px;
+				width: 250px;
+				background-color:#457474;
+			}
+			.anti-phishing {
+				display: flex;
+				justify-content: space-around;
+			}
+			.text-style {
+				color: whitesmoke;
+				text-align: center;
+				font-size: 12px;
+				word-break: break-word;
+			}
+			.text-qr {
+				word-break: break-all;
+				text-align: justify;
+				font-weight: 300;
+			}
+			.danger {
+				color: #9e2424;
+			}
+		</style>
+	</head>
+	<body class="body-style">
+		<h2 class="text-style">РЕЗУЛЬТАТ СКАНИРОВАНИЯ СТРАНИЦЫ</h2>
+		<div class="anti-phishing" id="AntiPhishingQR"></div>
+		<script src="popup.js"></script>
+	</body>
+</html>
