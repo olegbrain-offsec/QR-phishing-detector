@@ -33,3 +33,11 @@ The idea of the extension is to give a level of security to users of the Google 
 4. После добавления выдайте разрешения расширению, чтобы оно могло начать свою работу.
 
 
+# Examples of detection / Примеры обнаружения
+Detected phishing sites with or without redirect
+![image](https://github.com/olegbrain-offsec/QR_phishing_detector/assets/160741328/1ed4dc58-d716-4adb-a686-5bc407ced7cd)
+![image](https://github.com/olegbrain-offsec/QR_phishing_detector/assets/160741328/2fea84e0-e53a-4944-b417-1128f79e17b9)
+
+
+
+
