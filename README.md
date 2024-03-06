@@ -36,9 +36,9 @@ The idea of the extension is to give a level of security to users of the Google 
 # Examples of detection / Примеры обнаружения
 Detected phishing sites with or without redirect
 
-![image](https://github.com/olegbrain-offsec/QR_phishing_detector/assets/160741328/1ed4dc58-d716-4adb-a686-5bc407ced7cd)
+![image](https://github.com/olegbrain-offsec/QR_phishing_detector/assets/160741328/3a840f43-b5c8-4d40-ac58-c7fc10fe16d3)
 
-![image](https://github.com/olegbrain-offsec/QR_phishing_detector/assets/160741328/2fea84e0-e53a-4944-b417-1128f79e17b9)
+![image](https://github.com/olegbrain-offsec/QR_phishing_detector/assets/160741328/2267614c-e7b8-4b7b-8d80-6b1dbfd7c589)
 
 
 
