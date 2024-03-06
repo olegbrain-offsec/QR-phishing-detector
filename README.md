@@ -1,5 +1,4 @@
 # Browser extension for detecting and preventing traffic by phishing QR code for Google Chrome
-##  English section
 ## An extension for the Google Chrome browser that prevents users from clicking on phishing QR codes
 The idea of the extension is to give a level of security to users of the Google Chrome browser before scanning potentially malicious QR codes. The browser extension performs a search and then analyzes the link in the QR code. If the text was hidden in the code, it will simply be shown to the user, but if the code contains a link, the extension will make a request to a specialized free API and try to determine where the user will eventually be redirected, whether a short link is used in QR. The VirusTotal API is used to recognize malicious sites, and Redirect Checker is used to detect redirects to prevent potential CORS attacks. This extension was developed as part of the bachelor's work and has many points for improvement, so it has not yet been published in the store and has not been brought to perfection :)
 ## Requirements before launch
@@ -15,8 +14,6 @@ The idea of the extension is to give a level of security to users of the Google 
 3. Go to the browser extension settings, turn on developer mode and point to the "Compiled" folder;
 4. After adding, grant permissions to the extension so that it can start working.
 
-
-# Секция на русском языке
 ## Расширение для браузера Google Chrome, которое предотвращает переход по фишинговым QR-кодам
 Идея расширения заключается в том, чтобы дать уровень безопасности пользователям браузера Google Chrome перед сканированием потенциально вредоносных QR-кодов. Браузерное расширение производит поиск, а затем анализ ссылки в QR-коде. Если в коде был спрятан текст, то он будет просто показан пользователю, если же в коде содержится ссылка, то расширение произведет запрос на специализированный бесплатный API и попробует определить куда будет в конечном итоге переадресован пользователь, используется ли короткая ссылка в QR. Для распознавания вредоносных сайтов используется API VirusTotal, а для предотвращения потенциальных CORS атак для определения переадресации используется Redirect Checker. Данное расширение было разработано в рамках бакалаврской работы и имеет множество моментов для улучшения, поэтому оно до сих пор не опубликовано в магазине и не доведено до идеала:)
 ## Требования перед запуском
